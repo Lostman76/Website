@@ -1,0 +1,156 @@
+@media screen and (max-width: 1200px){
+    .contact-content{
+        margin-top: 170px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+}
+@media screen and (max-width: 1104px){
+    header{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    nav {
+        height: 34px;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+    .left1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .left1 ul{
+        margin: 0px 0px 0px 0px;
+    }
+    .container{
+        width: 100vw;
+    }
+    .articles{
+        width: 80%;
+    }
+    .article{
+        width: 80%;
+    }
+    .article img{
+        width: 100%;
+    }
+    .photo{
+        /* width: 50vw; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .articles{
+        flex-direction: column;
+    }
+    .bar{
+        width: 100vw;
+    }
+    .mainabout{
+        width: 80vw;
+    }
+    .mainabout p{
+        font-size: 25px;
+    }
+    .hamburger{
+        display: block;
+        margin-right: 20px;
+    }
+    .hamburger.active .bar1:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar1:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar1:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: absolute;
+        left: -200%;
+        top: 200px;
+        gap: 0;
+        flex-direction: column;
+        /* background-color: black ; */
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-menu.active{
+        left: 0;
+    }
+    .typed{
+        margin-top: 40px;
+    }
+
+}
+@media screen and (max-width: 825px) {
+    .mainabout{
+        margin-top: 150px;
+    }
+    .articles1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .article1{
+        width: 80%;
+        margin-top: 15px;
+    }
+    .article1 img{
+        width: 100%;
+        height: 340px;
+    }
+    
+    .typed h1{
+        font-size: 20px;
+    }
+    .container1{
+        margin-top: 50px;
+        width: 100vw;
+    }
+    .container1 p{
+        width: 90%;
+        font-size: 15px;
+    }
+    .contents{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content{
+        margin-top: 25px;
+    }
+    
+    
+}
+@media screen and (max-width: 420px) {
+    .container2{
+        display: none;
+    }
+    .slider{
+        margin-top: 170px;
+    }
+    .prev, .next{
+        top: 70%;
+        position: absolute;
+    }
+    .nav-menu{
+        top: 160px;
+    }
+    .mainabout{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    
+}

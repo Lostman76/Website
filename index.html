@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrowWithMe.com</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo12.svg" type="image/svg" sizes="160x160">
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left1">
+
+                <span> <a href="./index.html"><img src="./img/Logo1.svg" alt=""></a> </span>
+                <ul class="nav-menu">
+                    <div class="gene">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li> <a href="./contact.html">Contact</a></li>
+                </div>
+                    <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Resources 
+                          <i class="fa fa-caret-down" aria-hidden="true"></i>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="#">Placement</a>
+                          <a href="Cheatsheets.html">Cheatsheets</a>
+                          <a href="Finance.html">Personal Finance</a>
+                        </div>
+                      </div> 
+                    </li>
+                    
+                </ul>
+                <div class="hamburger">
+                    <span class="bar1"></span>
+                    <span class="bar1"></span>
+                    <span class="bar1"></span>
+                </div>
+            </div>
+            <div class="right1">
+                <form action="/Trade with lostman/search.html" method="get">
+                    <input class="form-input" type="text" placeholder="Search Here">
+                    <button class="btn">Search</button>
+                </form>
+            </div>
+           
+        </nav>
+       
+        
+    </header>
+    <video autoplay muted loop id="myVideo" >
+        <source src="./video1.mp4" type="video/mp4">
+    </video>
+    <!-- <main> -->
+        <section id="section1">
+        <div class="mainabout">
+            <h1>
+              About
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur animi soluta recusandae odit possimus quaerat nulla, quas eum. Veritatis possimus exercitationem distinctio molestias illum eum voluptate delectus dolore aspernatur enim.</p>
+          </div>
+        </section>
+        <section id="section2">
+            <div class="container">
+                <div class="bar">
+                    <h2>Crypto Space</h2>
+                </div>
+                <div class="articles">
+                    <div class="article fade">
+                        <img src="img/crypto1.jpg" alt="">
+                        <div class="content">
+                            <a href="/">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                            </a>
+                            <div>Author name</div>
+                            <span>Time to read</span>
+                            <span>Date</span>
+                        </div>
+                    </div>
+                    <div class="article fade">
+                        <img src="img/crypto2.webp" alt="">
+                        <div class="content">
+                            <a href="/">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                            </a>
+                            <div>Author name</div>
+                            <span>Time to read</span>
+                            <span>Date</span>
+                        </div>
+                    </div>
+                    <div class="article fade">
+                        <img src="img/crypto3.jpg" alt="">
+                        <div class="content">
+                            <a href="/">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                            </a>
+                            <div>Author name</div>
+                            <span>Time to read</span>
+                            <span>Date</span>
+                        </div>
+                    </div>
+                    
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </div>
+            <div class="container1">
+                <div class="bar">
+                    <h2>Investment Space</h2>
+                </div>
+                <div class="articles1">
+                    <div class="article1">
+                        <img src="img/Stock1.webp" alt="">
+                        <div class="content">
+                            <a href="/">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                            </a>
+                            <div>Author name</div>
+                            <span>Date</span>
+                            <span>Time to read</span>
+                        </div>
+                    </div>
+                    <div class="article1">
+                        <img src="img/Stock2.jpg" alt="">
+                        <div class="content">
+                            <a href="/">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                            </a>
+                            <div>Author name</div>
+                            <span>Date</span>
+                            <span>Time to read</span>
+                        </div>
+                    </div>
+                    <div class="article1">
+                        <img src="img/Stock3.jpg" alt="">
+                        <div class="content">
+                            <a href="/">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                            </a>
+                            <div>Author name</div>
+                            <span>Date</span>
+                            <span>Time to read</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    <!-- </main> -->
+    <footer class="flex-all-center">
+        <p>Copyright &copy; GrowWithMe.com</p>
+    </footer>
+   
+</body>
+
+<script>
+ let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("article");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";  
+}
+
+
+
+</script>
+<script>
+    const hamburger = document.querySelector(".hamburger");
+    const navmenu = document.querySelector(".nav-menu");
+
+    hamburger.addEventListener("click", ()=>{
+        hamburger.classList.toggle("active");
+        navmenu.classList.toggle("active");
+
+    })
+
+</script>
+</html>

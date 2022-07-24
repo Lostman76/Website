@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrowWithMe.com</title>
+    <link rel="stylesheet" href="css/About.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Logo23.svg" type="image/svg" sizes="160x160">
+    <script src="../Trade with lostman/js/index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left1">
+
+                <span> <a href="./index.html"><img src="./img/Logo1.svg" alt=""></a> </span>
+                <ul class="nav-menu">
+                    <div class="gene">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li> <a href="./contact.html">Contact</a></li>
+                </div>
+                    <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Resources 
+                          <i class="fa fa-caret-down" aria-hidden="true"></i>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="#">Placement</a>
+                          <a href="Cheatsheets.html">Cheatsheets</a>
+                          <a href="Finance.html">Personal Finance</a>
+                        </div>
+                      </div> 
+                    </li>
+                    
+                </ul>
+                <div class="hamburger">
+                    <span class="bar1"></span>
+                    <span class="bar1"></span>
+                    <span class="bar1"></span>
+                </div>
+            </div>
+            <div class="right1">
+                <form action="/Trade with lostman/search.html" method="get">
+                    <input class="form-input" type="text" placeholder="Search Here">
+                    <button class="btn">Search</button>
+                </form>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <section>
+       <div class="container">
+           <div class="container2">
+             <div class="typed">
+               <h1> Here you will get :  <span class="anim"></span></h1>
+             </div>
+           </div>
+        <div class="container1">
+          <h2>About the Website</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id illum itaque iste ad sed? Rerum consequatur voluptatum maxime reprehenderit id? Dicta delectus sint, asperiores tempore eum modi. Nostrum, vitae. Ipsam debitis velit dolores repellat quisquam cumque. Minima necessitatibus, consequuntur alias suscipit, iusto ipsa inventore tempore iure, vitae animi amet aliquam.</p>
+        </div>
+       </div>
+    </section>
+    <!-- <video autoplay muted loop id="myVideo" src="video1.mp4">
+
+    </video> -->
+    <footer>
+        <div class="upper">
+
+            <p>Copyright &copy; GrowWithMe.Com</p>
+        </div>
+        <div class="lower">
+
+        <div class="address">
+            <p>
+               GrowWithMe
+               <br>
+               Opposite V.T. School
+               <br>
+               Kuchaman City
+               <br>
+               341508 
+               <br>
+               <a href="mailto:ac7276149@gmail.com">ac7276149@gmail.com</a>
+            </p>
+        </div>
+        <div class="follow">
+            Follow Me On 
+
+        </div>
+    </div>
+    </footer>
+<script src="typed.js"></script>
+<script>
+    var typed = new Typed('.anim', {
+  // Waits 1000ms after typing "First"
+  strings: [
+     'Placement Materials.',
+     'Helpful Websites.',
+     'Cheatsheets.',
+     'And, a lot of knowledge.'],
+
+    typeSpeed : 100,
+    backSpeed: 90,
+    loop: true,
+});
+</script>
+<script>
+    const hamburger = document.querySelector(".hamburger");
+    const navmenu = document.querySelector(".nav-menu");
+
+    hamburger.addEventListener("click", ()=>{
+        hamburger.classList.toggle("active");
+        navmenu.classList.toggle("active");
+
+    })
+
+</script>
+</body>
+
+</html>
